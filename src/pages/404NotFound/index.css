@@ -1,0 +1,39 @@
+.section404 h1, .section404 .h1{
+    font-size: 90px;
+    line-height: 95px;
+    margin-bottom: 20px;
+}
+
+.section404 h2, .section404 .h2{
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+
+.section404 .btn{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.section404 .btn .icn{
+    margin-right: 7px;
+    transition: all .35s ease;
+}
+
+.section404 .btn:hover .icn{
+    margin-right: 10px;
+}
+
+.section404 .btnLarge{
+    min-width: 250px;
+}
+
+.loginSection.section404 .contentWrap{
+    max-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .section404 .btn{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "cappagh-review-system-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "apexcharts": "^3.47.0",
+    "axios": "^0.21.4",
+    "pusher-js": "^8.4.0-rc2",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-date-picker": "^10.6.0",
+    "react-dom": "^18.2.0",
+    "react-epic-spinners": "^0.5.0",
+    "react-konva": "^18.2.10",
+    "react-minimal-pie-chart": "^8.4.0",
+    "react-multi-select-component": "^4.3.4",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.30.1",
+    "react-toastify": "^10.0.3",
+    "reactjs-popup": "^2.0.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@soketi/soketi-js": "^1.4.3"
+  }
+}
